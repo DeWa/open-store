@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "open-store"
+version = "0.1.0"
+description = ""
+authors = ["Joonas Reinikka <joonas.reinikka@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+adafruit-circuitpython-charlcd = "^3.4.10"
+autopep8 = "^2.0.4"
+rpi-gpio = "^0.7.1"
+spidev = "^3.6"
+mfrc522 = "^0.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
