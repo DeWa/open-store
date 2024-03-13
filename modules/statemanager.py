@@ -18,5 +18,3 @@ class StateManager(object):
             logging.error('State %s not found!' % new_state)
             return None
 
-    def start(self):
-        return self.states['start'].run()

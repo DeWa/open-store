@@ -1,10 +1,13 @@
 from modules.statemanager import StateManager
 from modules.app import StoreApp
-from modules.server import start
 
 from states.start import StartState
 from states.setup import SetupState
 from states.hold import HoldState
+from RPi import GPIO
+
+GPIO.cleanup()
+GPIO.setmode(GPIO.BCM)
 
 app = StoreApp()
 
@@ -18,6 +21,4 @@ sm.add_state(HoldState(name='hold'))
 # sm.add_state(PayState(name='pay'))
 # sm.add_state(ThankState(name='thank'))
 # sm.add_state(AddMoneyState(name='addmoney'))
-
-sm.start()
-start()
+app.start(sm)
