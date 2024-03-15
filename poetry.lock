@@ -2,13 +2,13 @@
 
 [[package]]
 name = "adafruit-blinka"
-version = "8.34.0"
+version = "8.35.0"
 description = "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython."
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "Adafruit-Blinka-8.34.0.tar.gz", hash = "sha256:6629bc67d7a025d4c6b6e9d9851c12a86c8cedd4a8ac27f67fd63576010e9dee"},
-    {file = "Adafruit_Blinka-8.34.0-py3-none-any.whl", hash = "sha256:153d4bd49abd8341888f96ccbdcc3855e742c215bb3955d08862d066c0a5069e"},
+    {file = "Adafruit-Blinka-8.35.0.tar.gz", hash = "sha256:382d8a01a31fc427096bd0f3759e59560990bf8fc43f4e3b2ec5fb841427d718"},
+    {file = "Adafruit_Blinka-8.35.0-py3-none-any.whl", hash = "sha256:67c606a50e28b4c9464cc06eb5cea3457f166ba7968ebaa06a286bf27df51a9a"},
 ]
 
 [package.dependencies]
@@ -97,13 +97,13 @@ adafruit-circuitpython-busdevice = "*"
 
 [[package]]
 name = "adafruit-circuitpython-requests"
-version = "3.0.1"
+version = "3.2.0"
 description = "A requests-like library for web interfacing"
 optional = false
 python-versions = "*"
 files = [
-    {file = "adafruit-circuitpython-requests-3.0.1.tar.gz", hash = "sha256:0998cbc81429754f348a67ff7245655be4da2646e682215e4d80812feaa1f1d5"},
-    {file = "adafruit_circuitpython_requests-3.0.1-py3-none-any.whl", hash = "sha256:9403b7877b473aa9fe59b1e5785fa8253cc5b95de98c1e3f913add3d65dda6bb"},
+    {file = "adafruit-circuitpython-requests-3.2.0.tar.gz", hash = "sha256:d1e7d1c203a011c109a58681814a0c66c89e1471cc0e1c3333788ef6b30d3650"},
+    {file = "adafruit_circuitpython_requests-3.2.0-py3-none-any.whl", hash = "sha256:493df4937943b35bf027b9f8a3e59b7364b06b6f01ddcc55f0ef936c809d210c"},
 ]
 
 [package.dependencies]
@@ -112,13 +112,13 @@ Adafruit-Circuitpython-ConnectionManager = "*"
 
 [[package]]
 name = "adafruit-circuitpython-typing"
-version = "1.10.2"
+version = "1.10.3"
 description = "Types needed for type annotation that are not in `typing`"
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 files = [
-    {file = "adafruit-circuitpython-typing-1.10.2.tar.gz", hash = "sha256:ecfbaae7ac0f41b202aa3ed98cbd0f696b17e83b7e7f3fac6dc6a228cbc1c6c6"},
-    {file = "adafruit_circuitpython_typing-1.10.2-py3-none-any.whl", hash = "sha256:e64bbf2f7d4a4bdf0f9be8e039cfe2ed199aa7d51aa44a090d50be4f0917d24f"},
+    {file = "adafruit-circuitpython-typing-1.10.3.tar.gz", hash = "sha256:4c5c1eeb3ae8a3d2dfa75129654c73690fbdb576d9069542a6ea3355467e1e74"},
+    {file = "adafruit_circuitpython_typing-1.10.3-py3-none-any.whl", hash = "sha256:4e23d6828deafa4dfd554fd7d3f06b8ff8e2cc554b9c7aecba9d778d45970c18"},
 ]
 
 [package.dependencies]
@@ -281,5 +281,5 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.9"
-content-hash = "0934ad7e5c8af3676e801692538164ff5a5c8bac4ea985653ff5b06e971a5ff6"
+python-versions = "^3.8"
+content-hash = "6d5c5cf03193dddfd1ca82a49110c25d5181705850985a97b4b9d59aea5836cb"
