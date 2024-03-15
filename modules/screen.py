@@ -17,7 +17,7 @@ class Screen:
     lcd_d7 = digitalio.DigitalInOut(board.D18)
     lcd_d6 = digitalio.DigitalInOut(board.D12)
     lcd_d5 = digitalio.DigitalInOut(board.D16)
-    lcd_d4 = digitalio.DigitalInOut(board.D25)
+    lcd_d4 = digitalio.DigitalInOut(board.D20)
 
     def __init__(self):
         self.screen = characterlcd.Character_LCD_Mono(
