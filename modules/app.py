@@ -3,13 +3,12 @@ from modules.rfid import Rfid
 
 
 class StoreApp():
-    statemanager = None
+    viewmanager = None
 
     def __init__(self):
         self.screen = Screen()
         self.rfid = Rfid()
 
-    def start(self, sm):
-        self.screen.write("testi")
-        self.statemanager = sm
-        self.statemanager.change_state('hold')
+    def start(self, vm):
+        self.viewmanager = vm
+        self.viewmanager.change_view('hold')

@@ -1,7 +1,7 @@
-class State(object):
+class View(object):
     def __init__(self, name):
         self.name = name
-        self.sm = None
+        self.vm = None
         self.app = None
 
     def __repr__(self):
